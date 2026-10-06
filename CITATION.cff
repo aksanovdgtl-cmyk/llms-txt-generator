@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite HITZ and the original online tool."
+type: software
+title: "llms.txt Checker and Generator (Проверка и генератор llms.txt)"
+version: "1.0.0"
+date-released: "2026-10-06"
+authors:
+  - name: "HITZ"
+    website: "https://hitz.agency"
+  - family-names: "Aksanov"
+    given-names: "Marat"
+    website: "https://aksanov.digital"
+url: "https://hitz.agency/tools/llms-txt"
+repository-code: "https://github.com/aksanovdgtl-cmyk/llms-txt-generator"
+license: MIT
+abstract: "Validates a site llms.txt file (availability, one H1, description, H2 sections, absolute Markdown links, 0-100 score) and generates a ready llms.txt from four fields in the browser."
+keywords:
+  - "llms.txt"
+  - "llms.txt generator"
+  - "llms.txt validator"
+  - "AI search"
+  - "GEO"

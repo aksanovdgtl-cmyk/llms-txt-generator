@@ -1,0 +1,52 @@
+{
+  "name": "llms-txt-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "llms.txt validator and generator: checks availability, structure, description and links, builds a ready llms.txt in the browser. By HITZ, GEO agency.",
+  "author": {
+    "name": "HITZ",
+    "url": "https://hitz.agency"
+  },
+  "contributors": [
+    {
+      "name": "Marat Aksanov",
+      "url": "https://aksanov.digital"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://hitz.agency/tools/llms-txt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aksanovdgtl-cmyk/llms-txt-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aksanovdgtl-cmyk/llms-txt-generator/issues"
+  },
+  "keywords": [
+    "llms-txt",
+    "llms",
+    "generator",
+    "validator",
+    "ai-search",
+    "generative-engine-optimization",
+    "geo",
+    "seo-tools",
+    "cloudflare-workers",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "tsc --noEmit",
+    "test": "node --test \"test/*.test.*\""
+  },
+  "devDependencies": {
+    "miniflare": "4.20260730.0",
+    "typescript": "6.0.3",
+    "wrangler": "4.147.0"
+  }
+}
